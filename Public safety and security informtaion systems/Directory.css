@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    position: relative;
+}
+
+.home-button {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #0b0b0b;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #ffc107; /* Yellow background */
+    border-radius: 25px;
+}
+
+.home-button:hover {
+    background-color: #cc9a05; /* Darker yellow on hover */
+}
+
+header {
+    background-color: #ffd700;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.police-section {
+    background-color: #ffc107;
+}
+
+.firefighters-section {
+    background-color: #ffc107;
+}
+.hospital-section {
+    background-color: #ffc107;
+}
+.mdrrmc-section {
+    background-color: #ffc107;
+}
+.baranggay-section {
+    background-color: #ffc107;
+}
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

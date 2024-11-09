@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Safety and Security Information</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/83/3d/cb/833dcbdfbb2a466c0bb30e563b6749c0.jpg">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://i.pinimg.com/originals/4e/0b/c5/4e0bc560836e373ebf518e261671ee4f.jpg" alt="Logo">
+    </div>
+    <div class="title">
+        <h1>Public Safety and Security Information</h1>
+    </div>
+</header>
+
+<nav>
+    <a href="reportcrime.php">Report Crime</a>
+    <a href="about.html">About us</a>
+    <a href="Directory.html">Directory</a>
+    <a href="profile.php">User Profile</a>
+</nav>
+
+<div class="description">
+    <p>Empowering communities with real-time safety information. Your go-to resource for staying secure and informed.</p>
+</div>
+
+<div class="information-cards">
+    <div class="card">
+        <h2>Safety Tips</h2>
+        <p>Explore our curated safety tips to enhance your awareness and protect yourself and your community.</p>
+    </div>
+    <div class="card">
+        <h2>Emergency Contacts</h2>
+        <p>Quick access to vital contacts and resources for emergencies in your area.</p>
+    </div>
+
+    <div class="card">
+        <h2>Stay Infromed on the current news</h2>
+        <p>We provide trustworthy news along with its sources to help you stay informed.</p>
+    </div>
+    <!-- Add more cards as needed -->
+</div>
+
+<div class="slideshow-container">
+    <div class="mySlides">
+        <a href="https://www.nytimes.com/2020/02/10/world/asia/philippines-abs-cbn-franchise.html" target="_blank">
+            <img src="https://static01.nyt.com/images/2020/02/10/world/10philippines-1/10philippines-1-videoSixteenByNine3000.jpg?year=2020&h=1687&w=3000&s=ae8db3845e3c7d7b12634e28cd97a07e521de8b148b45f9508e1ee52437b2e25&k=ZQJBKqZ0VN&tw=1" alt="Slide 1">
+        </a>
+    </div>
+
+    <div class="mySlides">
+        <a href="https://i.ytimg.com/vi/__wV-FccOuU/sddefault.jpg?v=5fa12ec2" target="_blank">
+            <img src="https://i.ytimg.com/vi/__wV-FccOuU/sddefault.jpg?v=5fa12ec2" alt="Slide 2">
+        </a>
+    </div>
+
+    <div class="mySlides">
+        <a href="https://www.youtube.com/@abscbnnews" target="_blank">
+            <img src="https://pbs.twimg.com/media/Dif724zV4AA49Nd.jpg" alt="Slide 3">
+        </a>
+    </div>
+
+    <div class="mySlides">
+        <a href="https://news.abs-cbn.com" target="_blank">
+            <img src="https://files.tempo.com.ph/wp-content/uploads/2020/01/ABS-CBN_logo.jpg" alt="Slide 4">
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>Public Safety and Security Information System™</p>
+</footer>
+
+<script>
+    let slideIndex = 0;
+
+    function showSlides() {
+        const slides = document.getElementsByClassName("mySlides");
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000);
+    }
+
+    showSlides();
+</script>
+
+</body>
+
+</html>

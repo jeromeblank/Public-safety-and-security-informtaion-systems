@@ -1,0 +1,119 @@
+/* profile.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    position: relative;
+}
+
+header {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #ffd700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Ensure header is on top */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between logo and h1 */
+}
+
+.logo img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+nav {
+    background-color: #f2c200;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+    transform: scale(1.1);
+}
+
+.content-container {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content-container h2 {
+    color: #333;
+}
+
+.content-container form {
+    margin-top: 20px;
+}
+
+.content-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.content-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.content-container input[type="submit"],
+.content-container button {
+    background-color: #ffd700;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content-container input[type="submit"]:hover,
+.content-container button:hover {
+    background-color: #ffd700;
+}
